@@ -6,17 +6,7 @@ import { ItemComponent } from './item.component';
 const routes: Routes = [
     { path: '',
         component: ItemComponent,
-        children:[
-            {
-                path:'item',
-                loadChildren:'./itemInfo/itemInfo.module#ItemInfoModule'
-            },
-            {
-                path:'',
-                redirectTo:'itemInfo',
-                pathMatch:'full'
-            }
-        ]
+        pathMatch: 'full'
 
     }
 ];

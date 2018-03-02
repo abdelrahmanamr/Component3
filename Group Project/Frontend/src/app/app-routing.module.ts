@@ -20,20 +20,6 @@ const routes: Routes = [
     { path: '', redirectTo: 'store', pathMatch: 'full' },
 
 
-
-    {
-        path:'itemInfo',
-        loadChildren:'./itemInfo/itemInfo.module#itemInfoModule'
-    },
-
-
-
-
-
-    { path: '', redirectTo: 'itemInfo', pathMatch: 'full' },
-
-
-
   { path: '**', redirectTo: 'dashboard' }
 ];
 
