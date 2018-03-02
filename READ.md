@@ -3,6 +3,7 @@ Insertions: db.products.insertMany([ {name: "Google Pixel 2", price: 800, seller
 
 
 
+
 Insertions: db.products.insertMany([ {name: "Google 2", price: 800, sellerName: "YoussefHaitham"}, {name: "Razor", price: 700, sellerName: "YoussefHaitham"}, {name: "Appleh", price: 350, sellerName: "YoussefHaitham"}, {name: "IMac", price: 5000, sellerName: "YoussefHaitham"}])
 
 
